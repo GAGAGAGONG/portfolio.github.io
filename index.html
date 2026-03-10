@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio_2.0 | Dev & Design</title>
+    <!-- Google Fonts: JetBrains Mono for that coding vibe -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">&lt;Dev<span></span>/</span>&gt;</div>
+        <ul class="nav-links">
+            <li><a href="#home">_home</a></li>
+            <li><a href="#projects">_projects</a></li>
+            <li><a href="#achievements">_achievements</a></li>
+            <li><a href="#contact">_contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <main>
+        <!-- HOME SECTION -->
+        <section id="home">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <p class="greeting">// Hi, I am</p>
+                    <h1 class="name">Kranathip Intorrathed</h1>
+                    <div class="roles-container">
+                        <span class="prompt">> </span>
+                        <span class="typewriter" id="typewriter-text"></span><span class="cursor">|</span>
+                    </div>
+                    <p class="bio">
+                        /* transforming ideas into digital reality via 
+                        UX/UI Design, Game Dev & Front-end */
+                    </p>
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn primary-btn">View Projects</a>
+                        <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-image-container">
+                    <!-- Replace with your photo. e.g. "images/profile.jpg" -->
+                    <img src="asset/522750330_2169138920269203_1452751080185156988_n.jpg" alt="Profile Picture" class="hero-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section id="projects">
+            <h2 class="section-title"><span></span>01.</span> _projects</h2>
+            <div class="categories">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="game-dev">Game Dev</button>
+                <button class="filter-btn" data-filter="frontend">Front-end</button>
+                <button class="filter-btn" data-filter="ux-ui">UX/UI</button>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Example Project Card 1 -->
+                <div class="project-card" data-category="frontend">
+                    <div class="card-content">
+                        <h3>Overcooked Exhibition Webpage</h3>
+                        <p>Website for online exhibition</p>
+                        <ul class="tech-stack">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                        <a href="#" class="details-link">Read More -></a>
+                    </div>
+                </div>
+                <!-- Example Project Card 2 -->
+                <div class="project-card" data-category="game-dev">
+                    <div class="card-content">
+                        <h3>CLEAR THE AIR</h3>
+                        <p>Digital learning Materials about E-cigaretttes</p>
+                        <ul class="tech-stack">
+                            <li>Unity</li>
+                            <li>C#</li>
+                        </ul>
+                        <a href="https://epidemiology-unit.itch.io/clear-the-air" class="details-link">Read More -></a>
+                    </div>
+                </div>
+                 <!-- Example Project Card 3 -->
+                 <div class="project-card" data-category="ux-ui">
+                    <div class="card-content">
+                        <h3>Coming Soon....</h3>
+                        <p>--------</p>
+                        <ul class="tech-stack">
+                            <li>Figma</li>
+                          
+                        </ul>
+                        <a href="#" class="details-link">Read More -></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ACHIEVEMENT SECTION -->
+        <section id="achievements">
+            <h2 class="section-title"><span></span>02.</span> _achievements</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="date">2025</div>
+                    <div class="content">
+                        <h3>Runner-up in the Comprehensive and Sustainable Smoke-Free, E-Cigarette-Free, and Tobacco-Free Higher Education Institution Development Project</h3>
+                        <p>Game Developer</p>
+                        <!-- Replace src with your image path (e.g., "images/award1.jpg") -->
+                        <img src="https://placehold.co/600x300/111/00a93b?text=Award+Image" alt="Award Image">
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="date">2025</div>
+                    <div class="content">
+                        <h3>G-STAR Exhibition 2025 Busan, South Korea</h3>
+                        <p>Exhibition</p>
+                        <img src="asset/Gstar.png" alt="Exhibition Photo">
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="date">2025</div>
+                    <div class="content">
+                        <h3>Pakktaii design week  ‘Spark of Gems Exhibition’</h3>
+                        <p>Exhibition</p>
+                        <img src="asset/Paktaii.png" alt="Design Week">
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="date">2025</div>
+                    <div class="content">
+                        <h3>9th TICC International Conference</h3>
+                        <p>Speaker</p>
+                        <img src="asset/TICC.png" alt="Conference Speaker">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact">
+            <h2 class="section-title"><span></span>03.</span> _contact</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <p>Let's build something amazing together.</p>
+                    <a href="mailto:contact@example.com" class="email-link">contact@example.com</a>
+                </div>
+                <form class="contact-form" action="https://formspree.io/f/mqeeeadb" method="POST">
+                    <div class="form-group">
+                        <label for="name">var name =</label>
+                        <input type="text" id="name" name="name" required placeholder='"John Doe";'>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">var email =</label>
+                        <input type="email" id="email" name="email" required placeholder='"john@example.com";'>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">var message =</label>
+                        <textarea id="message" name="message" rows="5" required placeholder='"Hello world...";'></textarea>
+                    </div>
+                    <button type="submit" class="btn primary-btn">Execute Send()</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Designed & Built by User &copy; 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
